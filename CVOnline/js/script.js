@@ -130,9 +130,12 @@ function tampilkanKarirProfesional(id) {
                                             </div>`;
 
             $.each(professional_career, function (i, data) {
+                if (data.end_date === null) var periode = data.start_date + " s/d Sekarang";
+                else var periode = data.start_date + " s/d " + data.end_date;
+
                 list_professional_career += `<div class="row">
                                                 <div class="col-md-8 text-justify">
-                                                    <p><span class="subtitle-others">` + data.company + `</span> <br>
+                                                    <p><span class="subtitle-others">` + data.company + `, ` + periode + `</span> <br>
                                                         ` + data.position + `<br>
                                                         <span class="content-others">` + data.jobdesc + `</span></p>
                                                 </div>
