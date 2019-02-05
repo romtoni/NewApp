@@ -1,1 +1,1 @@
-# NewApp
+# Playground for new technology 
