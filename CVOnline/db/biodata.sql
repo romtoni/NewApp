@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 05, 2019 at 12:57 PM
+-- Generation Time: Feb 05, 2019 at 12:59 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -178,7 +178,7 @@ CREATE TABLE `skillset` (
 
 INSERT INTO `skillset` (`id_skill`, `name`, `additional_info`, `id_profile`, `tgl_create`) VALUES
 (1, 'Bahasa Inggris', 'Pasif', 1, '2019-02-05 00:00:00'),
-(2, 'Pemrograman Berbasis', 'PHP, MySQL, Javascript', 1, '2019-02-05 00:00:00'),
+(2, 'Pemrograman Berbasis Web', 'PHP, MySQL, Javascript', 1, '2019-02-05 00:00:00'),
 (3, 'System dan Data Analisis', NULL, 1, '2019-02-05 00:00:00');
 
 -- --------------------------------------------------------
