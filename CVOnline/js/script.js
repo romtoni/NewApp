@@ -28,7 +28,7 @@ function tampilkanProfile(id) {
                             <h4>` + tagline + `</h4>`;
 
             banner_contact = `<h5> HP: ` + hp + `</h5>
-                                <h5> Email:` + email + `</h5>`;
+                                <h5> Email: ` + email + `</h5>`;
 
             profil = `<div class="row mt-3">
                                 <div class="col text-center">
