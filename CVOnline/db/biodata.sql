@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 05, 2019 at 12:59 PM
+-- Generation Time: Feb 05, 2019 at 11:26 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -126,7 +126,7 @@ CREATE TABLE `professional_career` (
 
 INSERT INTO `professional_career` (`id_career`, `company`, `city`, `start_date`, `end_date`, `position`, `jobdesc`, `id_profile`, `company_logo`, `tgl_create`) VALUES
 (1, 'PT Bhinneka Life Indonesia', 'Jakarta', '2017-01-01', NULL, 'Supervisor (IT Programmer)', 'Melakukan koding pada beberapa web-based application yang digunakan oleh perusahaan meliputi penambahan dan pengurangan fitur dan perbaikan bug. Dari segi database, meliputi pembuatan struktur tabel yang efektif dan efisien,  pembuatan query/view yang informatif, dan pembuatan store prosedur yang digunakan pada laporan-laporan yang bersifat statis, biasanya untuk laporan-laporan yang didasarkan pada rentang waktu/periode. Bekerja bersama 4 orang dalam tim.', 1, 'img/company/bhinneka.png', '2019-02-05 00:00:00'),
-(2, 'AJB Bumiputera 1912', 'Jakarta', '2011-07-01', '2016-12-31', 'Staf Muda (IT Programmer)', 'Melakukan koding pada beberapa web-based application yang digunakan oleh perusahaan meliputi penambahan dan pengurangan fitur, perbaikan bug, pembuatan user manual bila diperlukan, serta melayani permintaan dan memandu user secara langsung bila ada yang kurang jelas mengenai aplikasi yang digunakan serta mengelola database yang terkait pada aplikasi tersebut. Bekerja bersama 7 orang dalam tim.', 1, 'img/company/ajbbp1912.png', '2019-02-05 00:00:00'),
+(2, 'AJB Bumiputera 1912', 'Jakarta', '2012-07-01', '2016-12-31', 'Staf Muda (IT Programmer)', 'Melakukan koding pada beberapa web-based application yang digunakan oleh perusahaan meliputi penambahan dan pengurangan fitur, perbaikan bug, pembuatan user manual bila diperlukan, serta melayani permintaan dan memandu user secara langsung bila ada yang kurang jelas mengenai aplikasi yang digunakan serta mengelola database yang terkait pada aplikasi tersebut. Bekerja bersama 7 orang dalam tim.', 1, 'img/company/ajbbp1912.png', '2019-02-05 00:00:00'),
 (3, 'Universitas Gunadarma', 'Jakarta', '2010-10-01', '2012-03-01', 'Asisten Laboratorium Teknologi Informatika ', 'Menyusun materi, mengajarkan, serta menilai para praktikan melalui ujian dimana sesuai dengan SKS yang diambil pada semester tersebut. Secara berkala, melakukan pengawasan pada ujian tengah semester dan ujian akhir semester para mahasiswa bila ada penunjukkan oleh Asisten Tetap Laboratorium Teknologi Informatika. Bekerja bersama 5 orang dalam tim.', 1, 'img/company/ug.png', '2019-02-05 00:00:00');
 
 -- --------------------------------------------------------
@@ -156,7 +156,7 @@ CREATE TABLE `profile` (
 --
 
 INSERT INTO `profile` (`id_profile`, `name`, `tagline`, `hp`, `email`, `photo`, `age`, `birth_place`, `birth_date`, `address`, `city`, `country`, `tgl_create`) VALUES
-(1, 'Romtoni', 'Web Programming & Database Administrating', '081905934xxx', 'romtoni21@gmail.com', 'img/photo/romtoni.jpg', 29, 'Jakarta', '1989-04-14 00:00:00', 'Jl. Kemang Sari IVB No 2 Pondok Gede', 'Bekasi', 'Indonesia', '2019-02-05 00:00:00');
+(1, 'Romtoni', 'Web Programming & Database Administrating', '081905934749', 'romtoni21@gmail.com', 'img/photo/romtoni.jpg', 29, 'Jakarta', '1989-04-14 00:00:00', 'Jl. Kemang Sari IVB No 2 Pondok Gede', 'Bekasi', 'Indonesia', '2019-02-05 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -299,7 +299,7 @@ ALTER TABLE `software`
 -- AUTO_INCREMENT for table `academic_qualification`
 --
 ALTER TABLE `academic_qualification`
-  MODIFY `id_academic` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_academic` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `course`
@@ -329,13 +329,13 @@ ALTER TABLE `profile`
 -- AUTO_INCREMENT for table `skillset`
 --
 ALTER TABLE `skillset`
-  MODIFY `id_skill` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_skill` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `social_media`
 --
 ALTER TABLE `social_media`
-  MODIFY `id_social` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_social` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Constraints for dumped tables

@@ -67,7 +67,7 @@ function tampilkanSosialMedia(id) {
             $.each(social_media, function (i, data) {
                 list_social_media += `<div class="row mt-3">
                                         <div class="col text-justify ml-5">
-                                            <a target="_blank" href="` + data.link + `"> <img src="` + data.social_logo + `" class="social-image"> ` + data.social_name + `</a> <br>
+                                             <img src="` + data.social_logo + `" class="social-image"> <a target="_blank" href="` + data.link + `">` + data.social_name + `</a> <br>
                                         </div>
                                     </div>`;
 
