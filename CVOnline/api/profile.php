@@ -13,7 +13,7 @@ $sql = "SELECT
                 hp,
                 email,
                 photo,
-                age,
+                TIMESTAMPDIFF(YEAR, birth_date, CURDATE()) as age,
                 birth_place,
                 DATE_FORMAT(birth_date, '%d %M %Y') AS birth_date,
                 address,
