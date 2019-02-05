@@ -166,7 +166,7 @@ function tampilkanKualifikasiAkademi(id) {
             $.each(academic_qualification, function (i, data) {
 
                 if (data.title === null && data.gpa === null) var data_detail = data.department;
-                else var data_detail = data.title + ", " + data.department + ", (" + data.gpa + ")";
+                else var data_detail = data.title + ", " + data.department + " (" + data.gpa + ")";
 
                 list_academic_qualification += ` <div class="row">
                                                     <div class="col-md-8 text-justify">
