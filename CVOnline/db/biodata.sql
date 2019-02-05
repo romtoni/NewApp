@@ -156,7 +156,7 @@ CREATE TABLE `profile` (
 --
 
 INSERT INTO `profile` (`id_profile`, `name`, `tagline`, `hp`, `email`, `photo`, `age`, `birth_place`, `birth_date`, `address`, `city`, `country`, `tgl_create`) VALUES
-(1, 'Romtoni', 'Web Programming & Database Administrating', '081905934749', 'romtoni21@gmail.com', 'img/photo/romtoni.jpg', 29, 'Jakarta', '1989-04-14 00:00:00', 'Jl. Kemang Sari IVB No 2 Pondok Gede', 'Bekasi', 'Indonesia', '2019-02-05 00:00:00');
+(1, 'Romtoni', 'Web Programming & Database Administrating', '081905934xxx', 'romtoni21@gmail.com', 'img/photo/romtoni.jpg', 29, 'Jakarta', '1989-04-14 00:00:00', 'Jl. Kemang Sari IVB No 2 Pondok Gede', 'Bekasi', 'Indonesia', '2019-02-05 00:00:00');
 
 -- --------------------------------------------------------
 
