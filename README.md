@@ -1,1 +1,1 @@
-# Playground for new technology 
+# New technology playground
