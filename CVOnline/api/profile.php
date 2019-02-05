@@ -47,11 +47,11 @@ if (mysqli_num_rows($result) > 0)
         
     }
 
-    $response[]=array_merge(array('response' => 'true', 'status' => '200', 'flag' => 'SUCCESS'), array('profile' => $profile));
+    $response=array_merge(array('response' => 'true', 'status' => '200', 'flag' => 'SUCCESS'), array('profile' => $profile));
 }
 else 
 {
-    $response[]=array('response' => 'false', 'status' => '999', 'flag' => 'FAILED', 'error' => 'No data found');
+    $response=array('response' => 'false', 'status' => '999', 'flag' => 'FAILED', 'error' => 'No data found');
 }
 mysqli_close($conn);
 

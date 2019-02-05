@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 05, 2019 at 06:45 AM
+-- Generation Time: Feb 05, 2019 at 12:15 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.2.12
 
@@ -50,7 +50,7 @@ CREATE TABLE `academic_qualification` (
 
 INSERT INTO `academic_qualification` (`id_academic`, `name`, `city`, `country`, `start_date`, `end_date`, `title`, `department`, `gpa`, `id_profile`, `tgl_create`) VALUES
 (1, 'Universitas Gunadarma', 'Jakarta', 'Indonesia', '2007-07-01', '2011-11-01', 'Sarjana Teknik', 'Teknik Informatika', '3.28', 1, '2019-02-05 00:00:00'),
-(2, 'SMA Negeri 5 Bekasi', 'Bekasi', 'Indonesia', '2004-07-01', '2007-06-30', NULL, 'IPA', NULL, 1, '2019-02-05 00:00:00');
+(2, 'SMA Negeri 5 Bekasi', 'Bekasi', 'Indonesia', '2004-07-01', '2007-06-30', NULL, 'Ilmu Pengetahuan Alam', NULL, 1, '2019-02-05 00:00:00');
 
 -- --------------------------------------------------------
 
